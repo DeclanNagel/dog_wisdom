@@ -1,0 +1,41 @@
+#intro {
+    color: gold;
+    font-weight: bold;
+}
+
+#hello {
+    color: brown;
+    text-align: center;
+}
+
+#output {
+    display: block;
+    color:black;
+    text-align: center;
+    border: 1px solid yellow;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 35px;
+}
+
+#harper {
+    width: 300px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#yes {
+    margin-left: 48%;
+    font-weight: bold;
+}
+
+#no {
+    margin-left: 48%;
+    font-weight: bold;
+}
+
+body {
+    background-image: url("images/balance-of-nature.jpeg");
+}

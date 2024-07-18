@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="decor.css">
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+
+    <body>
+        <title id="intro">Random quotes from a wise dog</title>
+        <img id="harper" src="images/IMG_1332.jpg"> 
+        <h1 id="hello">Do you want wisdom?</h1>
+        <form id="wisdomForm">
+            <input id="yes" name="answer" value="yes" type="radio">
+            <label for="yes">YES</label>
+            <br>
+            <input id="no" name="answer" value="no" type="radio">
+            <label for="no">NO</label>
+            <br>        
+        </form>
+        <div id="output"></div>
+
+        <script src="dailyMessage.js" ></script>
+        <script>
+            document.getElementById('wisdomForm').addEventListener('change', getAnswer);
+        </script>
+    </body>
+</html>
